@@ -1,5 +1,5 @@
 # ArepLab1
-
+Este programa ofrece cálculos estadísticos como la media y la desviación estándar en un determinado conjunto de números
 ## Ejecucion de las Pruebas
 Para ejecutar las pruebas, puede abrir el cmd en la carpeta de este proyecto y ejecutar.
 * Compilando

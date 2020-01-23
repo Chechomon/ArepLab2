@@ -26,8 +26,8 @@ public class AppTest {
     }
     
     @Test
-    public void standardDeviationTest1() throws IOException{
-        BufferedReader br = new BufferedReader(new FileReader("test1.txt"));
+    public void desviacionEstandarTest() throws IOException{
+        BufferedReader br = new BufferedReader(new FileReader("prueba.txt"));
         String line = null;
         LinkedList<Double> lista = new LinkedList<Double>();
         while((line = br.readLine()) != null){

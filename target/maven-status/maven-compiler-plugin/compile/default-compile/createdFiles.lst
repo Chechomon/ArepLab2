@@ -1,3 +1,4 @@
-com/proyecto/demo/LinkedList.class
-com/proyecto/demo/Nodo.class
-com/proyecto/demo/Main.class
+com\proyecto\demo\Main.class
+com\proyecto\demo\Cabeza.class
+com\proyecto\demo\Nodo.class
+com\proyecto\demo\LinkedList.class

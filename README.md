@@ -16,6 +16,10 @@ mvn package
 ```
 mvn test
 ```
+* Documentación
+```
+mvn javadoc:javadoc
+```
 
 ## Lenguaje de Programacion
 El programa esta desarrollado en el lenguaje de programacion Java.

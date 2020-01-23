@@ -14,3 +14,12 @@ mvn package
 ```
 mvn test
 ```
+
+## Lenguaje de Programacion
+El programa esta desarrollado en el lenguaje de programacion Java.
+
+## Licencia
+Esta calculadora tiene la licencia del MIT.
+
+## Autor
+- Sergio Alejandro Peña Pinto

@@ -9,7 +9,7 @@ public class Nodo<V> {
     private V valor;
     
     /**
-     * Constructor para los nodos que formas parte de la lista
+     * Constructor para los nodos que forman parte de la lista
      * 
      * @param valor numero que va a tener esa posicion de la lista
      * @param sig siguiente nodo en la lista, si es nulo este es el ultimo elemento
@@ -19,14 +19,26 @@ public class Nodo<V> {
         this.sig = sig;
     }
     
+    /**
+     * Metodo que retorna el valor actual del nodo
+     * @return V valor asignado al nodo
+     */
     public V getValor() {
         return valor;
     }
     
+    /**
+     * Metodo que retorna el nodo siguiente
+     * @return Nodo<V> siguiente en la linked list
+     */
     public Nodo<V> getSiguiente() {
         return sig;
     }
     
+    /**
+     * Metodo que cambia el nodo siguiente a uno nuevo
+     * @param nodo el nodo a definir como siguiente
+     */
     public void setSiguiente(Nodo<V> nodo) {
         this.sig = nodo;
     }

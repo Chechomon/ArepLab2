@@ -17,19 +17,35 @@ public class Cabeza<V> {
         this.pri = pri;
         this.ult = ult;
     }
-
+    
+    /**
+     * Metodo que retorna el valor del primero
+     * @return Nodo<V> valor del nodo que actualmente desea
+     */
     public Nodo<V> getPrimero(){
         return pri;
     }
-
+    
+    /**
+     * Metodo que cambia el nodo primero a uno nuevo
+     * @param nodo el nodo a definir como primero
+     */
     public void setPrimero(Nodo<V> nodo){
         pri = nodo;
     }
     
+    /**
+     * Metodo que retorna el valor del ultimo
+     * @return Nodo<V> valor del nodo que actualmente desea
+     */
     public Nodo<V> getUltimo(){
         return ult;
     }
-
+    
+    /**
+     * Metodo que cambia el nodo ultimo a uno nuevo
+     * @param nodo el nodo a definir como ultimo
+     */
     public void setUltimo(Nodo<V> nodo){
         ult = nodo;
     }

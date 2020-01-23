@@ -14,7 +14,7 @@ public class LinkedList<V> {
     }
 
     /**
-     * Metodo que agrega un nuevo nodo a la lista
+     * Metodo que agrega un nuevo nodo a la linkedList
      * @param valor valor del nodo que se va a agregar
      */
     public void add(V valor) {
@@ -33,21 +33,43 @@ public class LinkedList<V> {
 
     }
     
-    public String toString() {
-        StringBuilder stringBuilder = new StringBuilder();
-        Nodo<V> pointer = cab.getPrimero();
-        while (pointer != null) {
-            stringBuilder.append(pointer.getValor()).append(" ");
-            pointer = pointer.getSiguiente();
+    /**
+     * Metodo que elimina un nodo de la linkedList
+     * @param valor valor del nodo que se va a eliminar
+     */
+    public void delete(V valor){
+        if(cab!=null){
+            if(cab.getPrimero()==valor){
+                Nodo<V> pointer = cab.getPrimero();
+            }
+            else{
+                Nodo<V> actual= cab.getPrimero();
+                Nodo<V> anterior=cab.getUltimo();
+                while(actual !=null){
+                    if(actual.getValor()==valor){
+                        anterior.setSiguiente(actual.getSiguiente());
+                        break;
+                    }
+                actual=actual.getSiguiente();
+                anterior=anterior.getSiguiente();
+                }
+            }
         }
-        return stringBuilder.toString().trim();
-
+        
     }
-
+    
+    /**
+     * Metodo que retorna el valor del primero
+     * @return Nodo<V> valor del nodo que actualmente desea
+     */
     public Nodo<V> getPrimero(){
         return cab.getPrimero();
     }
     
+    /**
+     * Metodo que retorna el tamaño de la linkedList
+     * @return int valor del tamaño 
+     */
     public int  getTamano(){
         return tam;
     }

@@ -20,7 +20,7 @@ public class Cabeza<V> {
     
     /**
      * Metodo que retorna el valor del primero
-     * @return Nodo<V> valor del nodo que actualmente desea
+     * @return Nodo valor del nodo que actualmente desea
      */
     public Nodo<V> getPrimero(){
         return pri;
@@ -36,7 +36,7 @@ public class Cabeza<V> {
     
     /**
      * Metodo que retorna el valor del ultimo
-     * @return Nodo<V> valor del nodo que actualmente desea
+     * @return Nodo valor del nodo que actualmente desea
      */
     public Nodo<V> getUltimo(){
         return ult;

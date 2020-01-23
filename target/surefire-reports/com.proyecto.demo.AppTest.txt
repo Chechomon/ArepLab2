@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.proyecto.demo.AppTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.proyecto.demo.AppTest
-standardDeviationTest1(com.proyecto.demo.AppTest)  Time elapsed: 0.005 s  <<< ERROR!
-java.io.FileNotFoundException: test1.txt (El sistema no puede encontrar el archivo especificado)
-	at com.proyecto.demo.AppTest.standardDeviationTest1(AppTest.java:30)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.proyecto.demo.AppTest

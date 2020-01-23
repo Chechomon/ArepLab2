@@ -29,7 +29,7 @@ public class Nodo<V> {
     
     /**
      * Metodo que retorna el nodo siguiente
-     * @return Nodo<V> siguiente en la linked list
+     * @return Nodo siguiente en la linked list
      */
     public Nodo<V> getSiguiente() {
         return sig;

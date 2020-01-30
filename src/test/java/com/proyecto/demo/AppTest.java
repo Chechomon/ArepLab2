@@ -21,7 +21,7 @@ public class AppTest {
         while ((line = br.readLine()) != null) {
             lista.add(Double.parseDouble(line));
         }
-        Double value = Main.media(lista);
+        Double value = Operaciones.media(lista);
         assertEquals(String.format(Locale.US, "%.2f", value),"550.60");
     }
     
@@ -33,7 +33,7 @@ public class AppTest {
         while((line = br.readLine()) != null){
             lista.add(Double.parseDouble(line));
         }
-        Double value = Main.desviacionEstandar(lista);
+        Double value = Operaciones.desviacionEstandar(lista);
         assertEquals(String.format(Locale.US, "%.2f", value),"572.03");
     }
 

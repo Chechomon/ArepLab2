@@ -31,7 +31,9 @@ mvn test
 ```
 mvn javadoc:javadoc
 ```
-## Ejecutar
+## Diagrama de Componentes
+![compo](compo.jpg)
+## Proyecto
 Al ejecutar debe ir a la direccion http://localhost:4567/ para probar el proyecto funcionando
 ## Lenguaje de Programacion
 El programa esta desarrollado en el lenguaje de programación Java.

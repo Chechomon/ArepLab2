@@ -1,4 +1,4 @@
-# ArepLab1
+# ArepLab2
 Este programa ofrece cálculos estadísticos como la media y la desviación estándar en un determinado conjunto de números
 ## Solución
 La clase mas atomica a crear es Nodo, posee dos atributos, sig y valor, donde valor es el numero almacenado en el nodo y next es la referencia al siguiente nodo de la lista, si no lo hay es null sig. Se tiene una clase Cabeza en donde se puede hacer más fácil la referencia entre la división de los nodos entre primero y ultimo o adelante y atrás.
@@ -31,7 +31,8 @@ mvn test
 ```
 mvn javadoc:javadoc
 ```
-
+## Ejecutar
+Al ejecutar debe ir a la direccion http://localhost:4567/ para probar el proyecto funcionando
 ## Lenguaje de Programacion
 El programa esta desarrollado en el lenguaje de programación Java.
 

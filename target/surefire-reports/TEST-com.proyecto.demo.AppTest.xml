@@ -1,65 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.proyecto.demo.AppTest" time="0.028" tests="2" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.proyecto.demo.AppTest" time="0.005" errors="0" skipped="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\DOCUMENTOS SERGIO\AREP\ArepLab2\ArepLab1\target\test-classes;E:\DOCUMENTOS SERGIO\AREP\ArepLab2\ArepLab1\target\classes;C:\Users\user\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\com\sparkjava\spark-core\2.7.2\spark-core-2.7.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-server\9.4.8.v20171121\jetty-server-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.8.v20171121\jetty-webapp-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20171121\jetty-xml-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.8.v20171121\jetty-servlet-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-security\9.4.8.v20171121\jetty-security-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.8.v20171121\websocket-server-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20171121\websocket-common-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20171121\websocket-client-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20171121\jetty-client-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.8.v20171121\websocket-servlet-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20171121\websocket-api-9.4.8.v20171121.jar;"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\DOCUMENTOS SERGIO\AREP\ArepLab2\master"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="America/Bogota"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Windows 10"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
     <property name="user.country" value="CO"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="E:\Programas\jdk1.8.0_111\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire5975630617578803196\surefirebooter4581381164039717246.jar C:\Users\user\AppData\Local\Temp\surefire5975630617578803196 2020-01-30T18-42-28_402-jvmRun1 surefire7975584864616002917tmp surefire_0989837991094522676tmp"/>
-    <property name="surefire.test.class.path" value="E:\DOCUMENTOS SERGIO\AREP\ArepLab2\ArepLab1\target\test-classes;E:\DOCUMENTOS SERGIO\AREP\ArepLab2\ArepLab1\target\classes;C:\Users\user\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\com\sparkjava\spark-core\2.7.2\spark-core-2.7.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-server\9.4.8.v20171121\jetty-server-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.8.v20171121\jetty-webapp-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20171121\jetty-xml-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.8.v20171121\jetty-servlet-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-security\9.4.8.v20171121\jetty-security-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.8.v20171121\websocket-server-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20171121\websocket-common-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20171121\websocket-client-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20171121\jetty-client-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.8.v20171121\websocket-servlet-9.4.8.v20171121.jar;C:\Users\user\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20171121\websocket-api-9.4.8.v20171121.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\user"/>
-    <property name="user.language" value="es"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="E:\Programas\jdk1.8.0_111\jre"/>
-    <property name="basedir" value="E:\DOCUMENTOS SERGIO\AREP\ArepLab2\ArepLab1"/>
-    <property name="file.separator" value="\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire5975630617578803196\surefirebooter4581381164039717246.jar"/>
-    <property name="sun.boot.class.path" value="E:\Programas\jdk1.8.0_111\jre\lib\resources.jar;E:\Programas\jdk1.8.0_111\jre\lib\rt.jar;E:\Programas\jdk1.8.0_111\jre\lib\sunrsasign.jar;E:\Programas\jdk1.8.0_111\jre\lib\jsse.jar;E:\Programas\jdk1.8.0_111\jre\lib\jce.jar;E:\Programas\jdk1.8.0_111\jre\lib\charsets.jar;E:\Programas\jdk1.8.0_111\jre\lib\jfr.jar;E:\Programas\jdk1.8.0_111\jre\classes"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_111-b14"/>
-    <property name="user.name" value="Sergio"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="E:\Programas\jdk1.8.0_111\jre\lib\endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_111"/>
-    <property name="user.dir" value="E:\DOCUMENTOS SERGIO\AREP\ArepLab2\ArepLab1"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="E:\Programas\jdk1.8.0_111\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\cygwin64\bin;C:\cygwin64\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\user\Downloads\apache-maven-3.5.2\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;E:\Programas\command;C:\WINDOWS\System32\OpenSSH\;E:\Programas\bin\i386-Win32;E:\Programas\Gpg4win\..\GnuPG\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;E:\Programas\heroku\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.111-b14"/>
-    <property name="java.ext.dirs" value="E:\Programas\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\DOCUMENTOS SERGIO\AREP\ArepLab2\master"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\user\Downloads\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\cygwin64\bin;C:\cygwin64\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\user\Downloads\apache-maven-3.5.2\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;E:\Programas\command;C:\WINDOWS\System32\OpenSSH\;E:\Programas\bin\i386-Win32;E:\Programas\Gpg4win\..\GnuPG\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;E:\Programas\heroku\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\user\Downloads\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\user\Downloads\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Sergio"/>
+    <property name="java.class.path" value="C:\Users\user\Downloads\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\user\Downloads\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="desviacionEstandarTest" classname="com.proyecto.demo.AppTest" time="0.004"/>
-  <testcase name="mediaTest" classname="com.proyecto.demo.AppTest" time="0"/>
+  <testcase classname="com.proyecto.demo.AppTest" name="desviacionEstandarTest" time="0.005"/>
+  <testcase classname="com.proyecto.demo.AppTest" name="mediaTest" time="0"/>
 </testsuite>

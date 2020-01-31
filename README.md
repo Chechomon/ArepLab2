@@ -31,6 +31,8 @@ mvn test
 ```
 mvn javadoc:javadoc
 ```
+## Diagrama de Componentes
+![compo](compo.jpg)
 ## Ejecutar
 Al ejecutar debe ir a la direccion http://localhost:4567/ para probar el proyecto funcionando
 ## Lenguaje de Programacion
